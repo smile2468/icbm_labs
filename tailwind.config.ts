@@ -9,6 +9,22 @@ delete DefaultColors.trueGray
 delete DefaultColors.coolGray
 delete DefaultColors.blueGray
 
+const JJUColors = {
+  blue: '#0078AD',
+  gold: '#CAAE65',
+  black: '#231816',
+  silver: '#CACFD3',
+  coolGray: '#AAABA5',
+  orange: '#D1906A',
+  yellow: '#F6D200',
+  violet: '#8F7EAB',
+  green: '#83B093',
+  steps: {
+    from: '#014B8C',
+    to: '#02ABEE'
+  }
+}
+
 const config: Config = {
   mode: 'jit',
   content: [
@@ -24,7 +40,8 @@ const config: Config = {
       },
       colors: {
         ...DefaultColors,
-        head: '#353945'
+        head: '#353945',
+        jju: JJUColors
       }
     }
   },

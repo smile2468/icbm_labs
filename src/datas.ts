@@ -1,6 +1,6 @@
 import { postInterface, researchesInterface, resercherInterface } from './interface'
 
-export const researches:researchesInterface[] = [
+export const researches: researchesInterface[] = [
   {
     researchTitle: 'High Performance 지식 표현',
     date: '2020. 07 ~ 2027. 12'
@@ -23,7 +23,7 @@ export const researches:researchesInterface[] = [
   }
 ]
 
-export const researchers:resercherInterface[] = [
+export const researchers: resercherInterface[] = [
   {
     name: '박지혁',
     role: '4학년 / 캡트톤 디자인 참여',
