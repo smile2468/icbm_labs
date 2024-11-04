@@ -12,3 +12,5 @@ export function useDragPreventionProps () {
     onSelectCapture: (e: SyntheticEvent<unknown, Event>) => e.preventDefault()
   }
 }
+
+export const randomIntFromInterval = (min: number, max: number): string => Math.floor(Math.random() * (max - min + 1) + min).toString()

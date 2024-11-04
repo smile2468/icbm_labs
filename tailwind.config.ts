@@ -35,14 +35,19 @@ const config: Config = {
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))'
+        'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))'
       },
       colors: {
         ...DefaultColors,
         head: '#353945',
-        jju: JJUColors
+        jju: JJUColors,
+        placeholder: '#7d8395',
+        basicGrey: '#e6e8ec',
+        lightGrey: '#f5f6f7'
       }
+    },
+    fontFamily: {
+      pretendard: ['var(--font-pretendard)']
     }
   },
   plugins: [
