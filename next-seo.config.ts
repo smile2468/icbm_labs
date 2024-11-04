@@ -2,8 +2,7 @@ import { NextSeoProps } from 'next-seo'
 
 const title = '전주대학교 ICBM Labs'
 const description = '다양한 활동에서 연구하고 실행해보며 성장할 수 있는 이 곳, 전주대학교 ICBM Labs 입니다.'
-// const url = 'https://icbm.jj.ac.kr'
-const url = 'http://ungbeom.iptime.org:3000'
+const url = 'https://icbm.jj.ac.kr'
 
 const config: NextSeoProps = {
   defaultTitle: title,
